@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1213px" height="488px" viewBox="0 0 1213 488" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shape-front</title>
+    <defs>
+        <linearGradient x1="80.2104606%" y1="50.4107471%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#240521" offset="0%"></stop>
+            <stop stop-color="#30062D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-284.000000, -824.000000)" fill="url(#linearGradient-1)">
+            <path d="M351,824.373162 L1430,910.905123 C1467.00308,913.872639 1497,946.275207 1497,983.278285 L1497,1249.27829 C1497,1286.28136 1467.00308,1313.87264 1430,1310.90512 L351,1224.37316 C313.996922,1221.40565 284,1189.00308 284,1152 L284,886 C284,848.996922 313.996922,821.405646 351,824.373162 Z" id="shape-front"></path>
+        </g>
+    </g>
+</svg>
