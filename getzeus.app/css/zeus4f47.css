@@ -1,0 +1,1053 @@
+body {
+    background-color: #1E041C;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.24px;
+    width: 100%;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.phone-hero-section {
+    position: relative;
+    width: 100%;
+}
+
+.large-12 {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+}
+
+.iphone-graphic-1 {
+    width: 870px;
+    height: 517px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-image: url("../../uploads-ssl.webflow.com/606e631a8e07f8fa8b438b52/6070b3f1a3dddf7c9bdb86de_zeus-iphone-hero-large.jpg");
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-description {
+    position: relative;
+    width: 100%;
+    max-width: 590px;
+    margin-top: -150px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-btn {
+    padding: 13px 60px;
+    border-radius: 30px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#901097), to(#e63199));
+    background-image: linear-gradient(90deg, #901097, #e63199);
+    box-shadow: 0 15px 35px -7px rgba(174, 1, 122, 0.5);
+    -webkit-transition: -webkit-filter 200ms ease-in-out;
+    transition: -webkit-filter 200ms ease-in-out;
+    transition: filter 200ms ease-in-out;
+    transition: filter 200ms ease-in-out, -webkit-filter 200ms ease-in-out;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero-btn:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.hero-p {
+    margin-bottom: 60px;
+    opacity: 0.6;
+}
+
+.brand {
+    display: block;
+    width: 152px;
+    height: 53px;
+    padding-bottom: 0px;
+    float: none;
+    background-image: url("https://cdn.discordapp.com/attachments/802544057590874132/855264864129384459/BackgroundEraser_image.png");
+    background-position: 0% 50%;
+    background-size: 152px 53px;
+    background-repeat: no-repeat;
+}
+
+.brand.scrolled {
+    width: 107px;
+    height: 37px;
+    max-height: 37px;
+    background-size: 107px 37px;
+}
+
+.nav-items {
+    margin-left: -40px;
+    float: none;
+    z-index: 9999;
+}
+
+.menu-button {
+    float: none;
+}
+
+.nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.nav-item::after {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background: #E63199;
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 10px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background: #E63199;
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+}
+
+.nav-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(49, 12, 46, 0);
+    background-color: rgba(42, 8, 40, 0);
+}
+
+.topnav {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.nav-icon {
+    -webkit-transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
+}
+
+.nav-icon:hover {
+    opacity: 0.65;
+}
+
+.section.section-cards {
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+.cards-container {
+    width: 100%;
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 7px 10px 40px 6px rgba(0, 0, 0, 0.09);
+}
+
+.card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-height: 491px;
+    padding: 30px 30px 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.card.card-normal {
+    overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e63199), to(#901097));
+    background-image: linear-gradient(180deg, #e63199, #901097);
+}
+
+.card-text {
+    margin-bottom: 10px;
+    opacity: 0.65;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0.29px;
+}
+
+.card-heading {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.51px;
+}
+.card-heading::after {
+    width: 50px;
+    height: 4px;
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.65) 100%);
+    content: "";
+    position: absolute;
+    left: 0%;
+    right: 50%;
+    bottom: -10px;
+}
+
+.image-feature-iphone {
+    position: relative;
+    left: 50%;
+    width: 409px;
+    height: 317px;
+    margin-left: -135px;
+    background-image: url("../../uploads-ssl.webflow.com/606e631a8e07f8fa8b438b52/6074e9d31b72b639913f9c10_iphone12_1%402x.png");
+    background-position: 0px 0px;
+    background-size: 409px;
+    background-repeat: no-repeat;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 238px;
+    margin-top: -55px;
+}
+
+.wave-front {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    width: 100%;
+    height: 238px;
+    background-image: url("https://uploads-ssl.webflow.com/606e631a8e07f8fa8b438b52/6074edda936ba570fd60e2c4_parallax-1.svg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wave-back {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -2;
+    width: 100%;
+    height: 174px;
+    background-image: url("https://uploads-ssl.webflow.com/606e631a8e07f8fa8b438b52/6074edda62ff19254555c5d7_parallax-2.svg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-title-block {
+    position: relative;
+    bottom: -123px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-heading-2 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.67px;
+}
+
+.full-width {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+._920-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 920px;
+    margin-right: -10px;
+    margin-left: -10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.section-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.feature-block {
+    position: relative;
+    overflow: hidden;
+    height: 170px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-radius: 20px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#30062d), to(rgba(94, 16, 89, 0.2)));
+    background-image: linear-gradient(90deg, #30062d, rgba(94, 16, 89, 0.2));
+}
+
+.small-card-content {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+    padding: 20px;
+}
+
+.small-card-heading {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.51px;
+}
+
+.small-card-text {
+    padding-right: 60px;
+    color: hsla(0, 0%, 100%, 0.65);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.card:first-child {
+    margin-right: 20px;
+}
+
+.card-icon-back {
+    position: absolute;
+    left: auto;
+    top: -9%;
+    right: -3%;
+    bottom: auto;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    opacity: 0.1;
+}
+.feature-block ion-icon {
+    font-size: 60px;
+}
+
+.feature-block .card-icon-back ion-icon {
+    font-size: 150px;
+}
+.card-icon-normal {
+    position: absolute;
+    left: auto;
+    top: 20px;
+    right: 20px;
+    bottom: auto;
+    z-index: 3;
+    width: 55px;
+    height: 55px;
+}
+
+.suggest-section {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    margin-top: 120px;
+}
+
+._2-row-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 920px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.left-block {
+    width: 50%;
+    text-align: left;
+}
+
+.right-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.big-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: left;
+}
+
+.purple-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 240px;
+    height: 210px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(145deg, rgba(88, 21, 83, 0.82), rgba(46, 18, 69, 0.1));
+    box-shadow: 0 15px 30px -7px rgba(25, 1, 32, 0.62);
+    transition: all .2s ease-in-out;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.purple-card-title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.38px;
+}
+
+.purple-block-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 142px;
+    height: 38px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 80px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.purple-block a {
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 142px;
+    height: 38px;
+    color: #FFF;
+    border: double 2px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(90deg, #370C3A, #2B092E), linear-gradient(90deg, rgba(255, 255, 255, 0.493), rgba(255, 255, 255, 0.212));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.purple-block a:hover {
+    color: #370C3A;
+    background-image: none;
+    background-color: white;
+    border: solid 2px white;
+}
+
+.purple-block:first-child {
+    margin-right: 25px;
+}
+.purple-block ion-icon {
+    font-size: 50px;
+}
+.purple-block:hover {
+    -webkit-filter: brightness(1.1);
+    filter: brightness(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 21px 30px -7px rgba(25, 1, 32, 0.62);
+}
+.shapes {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -5;
+    height: 600px;
+}
+
+.shape-back {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.shape-front {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.scrolled-nav {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 999999;
+    width: 100%;
+    margin-top: -80px;
+}
+
+.scrolled-cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #310c2e;
+    border-radius: 20px;
+    background-color: rgba(42, 8, 40, 0.65);
+    -webkit-backdrop-filter: saturate(50%) blur(15px);
+    backdrop-filter: saturate(50%) blur(15px);
+}
+
+.scrolled-brand {
+    width: 107px;
+    height: 37px;
+    background-image: url("https://cdn.discordapp.com/attachments/802544057590874132/855264864129384459/BackgroundEraser_image.png");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scrolled-items-container {
+    margin-left: -40px;
+}
+
+.scrolled-nav-link {
+    padding: 10px 25px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.scrolled-nav-link:hover {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.nav-icon:first-child {
+    margin-right: 15px;
+}
+
+.zeus-footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 110px;
+}
+
+.footer-first-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+}
+
+.foot-link {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+    opacity: 1;
+    text-decoration: none;
+    transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+}
+
+.foot-link:hover {
+    opacity: 0.7;
+}
+
+.foot-link ion-icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.footer-row-2 {
+    margin: 10px 0 0px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.footer-block {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    height: 110px;
+    align-items: start;
+}
+
+.copyright-block {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    background: rgba(30, 4, 28, 0.20);
+    opacity: 0.65;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0.21px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.wavy_footer_svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -5;
+    bottom: -15px;
+    margin: 0;
+    padding: 0;
+}
+.w-nav-overlay {
+    height: 100%;
+    display: block;
+    width: 100vw !important;
+}
+@media screen and (max-width: 991px) {
+    body {
+        overflow-x: hidden;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .phone-hero-section {
+        width: 100vw;
+    }
+    .large-12 {
+        width: 100vw;
+    }
+    .iphone-graphic-1 {
+        width: 100vw;
+        height: 460px;
+        background-position: 50% 0%;
+        background-size: cover;
+    }
+    .hero-description {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .nav-items {
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        z-index: 998;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        margin-top: 0px;
+        padding-top: 25%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #2c0729;
+    }
+    .nav-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        z-index: 9999999 !important;
+        position: relative;
+    }
+    .nav-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .topnav {
+        margin-top: 0px;
+        z-index: 9999999 !important;
+        position: relative;
+    }
+    .nav-social {
+        display: none;
+        z-index: 99999;
+    }
+    .cards-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .card.card-normal {
+        overflow: hidden;
+    }
+    .small-card-heading {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .small-card-text {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    ._2-row-container {
+        margin-top: 0px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .left-block {
+        margin-bottom: 40px;
+    }
+    .shape-back {
+        left: -59%;
+        width: 200%;
+    }
+    .shape-front {
+        left: 65px;
+        width: 200%;
+    }
+    .menu-btn {
+        z-index: 999;
+        width: 44px;
+        height: 44px;
+        max-height: 44px;
+        max-width: 44px;
+        min-height: 44px;
+        min-width: 44px;
+        padding: 13px 0px 0px 12.5px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .menu-btn.w--open {
+        background-color: hsla(0, 0%, 78.4%, 0);
+    }
+    .menu-icon {
+        display: block;
+        width: 18px;
+        height: 18px;
+    }
+    .close-icon {
+        display: none;
+        width: 18px;
+        height: 18px;
+    }
+    .scrolled-nav {
+        display: none;
+        z-index: 500;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .large-12 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .iphone-graphic-1 {
+        width: 480px;
+        height: 286px;
+    }
+    .hero-description {
+        max-width: 450px;
+        margin-top: -90px;
+    }
+    .hero-p {
+        margin-bottom: 20px;
+    }
+    .cards-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .card-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .card-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .card-heading {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .full-width {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .section-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    ._2-row-container {
+        background-color: rgba(44, 1, 44, 0.55);
+    }
+    .left-block {
+        width: 100%;
+        margin-bottom: 110px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .right-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .big-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .purple-block {
+        width: 300px;
+    }
+    .shapes {
+        display: none;
+    }
+    .shape-back {
+        display: none;
+    }
+    .shape-front {
+        display: none;
+    }
+    .footer-first-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .footer-row-2 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .iphone-graphic-1 {
+        position: relative;
+        left: 0px;
+        width: 260px;
+        height: 370px;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(32%, rgba(30, 4, 28, 0)), color-stop(93%, #1e041c)), url("../../uploads-ssl.webflow.com/606e631a8e07f8fa8b438b52/607253e5e5f2ce6933e82415_zeus-iphone-hero-small.png");
+        background-image: linear-gradient(180deg, rgba(30, 4, 28, 0) 32%, #1e041c 93%), url("../../uploads-ssl.webflow.com/606e631a8e07f8fa8b438b52/607253e5e5f2ce6933e82415_zeus-iphone-hero-small.png");
+        background-position: 0px 0px, 50% 0%;
+        background-size: auto, cover;
+        background-repeat: repeat, no-repeat;
+    }
+    .hero-description {
+        margin-top: -55px;
+    }
+    .section-heading-2 {
+        font-size: 39px;
+        line-height: 45px;
+    }
+    .purple-block {
+        width: 270px;
+    }
+}
